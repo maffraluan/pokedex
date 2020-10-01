@@ -3,12 +3,13 @@ import { NavigationContainer } from '@react-navigation/native'
 import { StatusBar } from 'react-native'
 import Routes from './src/Routes'
 
+
 const App: React.FC = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <NavigationContainer>
-        <Routes />
+          <Routes />
       </NavigationContainer>
     </>
   );
