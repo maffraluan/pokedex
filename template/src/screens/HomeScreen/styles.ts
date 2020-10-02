@@ -5,6 +5,7 @@ const WrapperSafeArea = styled.SafeAreaView`
   flex: 1;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
 `;
 
 const TitleContent = styled.View`
